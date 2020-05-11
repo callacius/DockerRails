@@ -1,4 +1,5 @@
-FROM ruby:alpine
+FROM ruby:alpine:3.11
+MAINTAINER Daniel Costa <callacius@gmail.com>
 
 RUN apk --update --upgrade add ruby-io-console ruby-json yaml nodejs
 
